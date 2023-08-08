@@ -1,5 +1,5 @@
 package execution
 
 interface MenuOption {
-    fun execute(opcao:Int):Int
+    fun execute(opcao:Int)
 }

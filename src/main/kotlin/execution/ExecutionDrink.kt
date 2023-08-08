@@ -5,7 +5,7 @@ import cart.ItemCarrinho
 import kotlin.random.Random
 
 class ExecutionDrink : MenuOption {
-    override fun execute(opcao: Int): Int {
+    override fun execute(opcao: Int){
         when (opcao) {
             1 -> {
                 val quant = InputUser.readIntInput("Quantos refrigerante você deseja:")
@@ -36,6 +36,5 @@ class ExecutionDrink : MenuOption {
                 println("Opção inválida. Digite novamente.")
             }
         }
-        return 0
     }
 }

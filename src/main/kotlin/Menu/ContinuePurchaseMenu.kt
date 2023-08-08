@@ -3,7 +3,7 @@ import cart.InputUser.Companion.readIntInput
 import execution.ExecutinOpcaoFinal
 
 class ContinuePurchaseMenu : DisplayMenu {
-    override fun exibirMenu(): Int {
+    override fun exibirMenu() {
         println("=== OPÇÕES FINAIS ===")
         println("1. Comprar mais itens")
         println("2. Editar item")

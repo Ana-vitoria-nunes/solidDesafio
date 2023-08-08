@@ -1,5 +1,5 @@
 package Menu
 
 interface DisplayMenu {
-    fun exibirMenu():Int
+    fun exibirMenu()
 }

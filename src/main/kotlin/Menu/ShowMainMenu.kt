@@ -4,12 +4,12 @@ import execution.ExecutionMenuPrincipal
 
 class ShowMainMenu:DisplayMenu {
 
-    override fun exibirMenu() :Int{
+    override fun exibirMenu(){
         println()
         println("===== MENU INICIAL =====")
         println("1.Lanche")
         println("2.Bebida")
-       return ExecutionMenuPrincipal().execute(readIntInput("Escolha a opção desejada: "))
+      ExecutionMenuPrincipal().execute(readIntInput("Escolha a opção desejada: "))
     }
 
 }

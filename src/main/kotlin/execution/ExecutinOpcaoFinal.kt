@@ -7,7 +7,7 @@ import cart.RemoveCartItem
 
 class ExecutinOpcaoFinal :MenuOption {
 
-    override fun execute(opcao: Int):Int{
+    override fun execute(opcao: Int){
         when (opcao) {
             1 -> {
                 ShowMainMenu().exibirMenu()
@@ -25,6 +25,5 @@ class ExecutinOpcaoFinal :MenuOption {
                 println("Opção inválida. Digite novamente.")
             }
         }
-        return 0
     }
 }

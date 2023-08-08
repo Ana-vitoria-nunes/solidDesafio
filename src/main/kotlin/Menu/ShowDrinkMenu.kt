@@ -4,10 +4,10 @@ import cart.InputUser.Companion.readIntInput
 import execution.ExecutionDrink
 
 class ShowDrinkMenu : DisplayMenu {
-    override fun exibirMenu(): Int {
+    override fun exibirMenu() {
         println("=== BEBIDAS ===")
         println("1. Refrigerante - R$ 8,00")
         println("2. Suco - R$ 6,00")
-        return ExecutionDrink().execute(readIntInput("Escolha a bebida desejada: "))
+        ExecutionDrink().execute(readIntInput("Escolha a bebida desejada: "))
     }
 }
